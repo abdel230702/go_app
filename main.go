@@ -29,6 +29,9 @@ func handler(w http.ResponseWriter, r *http.Request) {
 		name = "World"
 	}
 	fmt.Fprintf(w, "Hello %s!\n", name)
+	fmt.Fprintf(w, "Goodbye %s!\n", name)
+	fmt.Fprintf(w, "Welcome %s!\n", name)
+
 
 
 }
